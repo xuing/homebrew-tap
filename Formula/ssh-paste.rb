@@ -3,14 +3,14 @@
 class SshPaste < Formula
   desc "Paste screenshots into programs that run over SSH"
   homepage "https://github.com/xuing/ssh-please-paste-picture"
-  url "https://github.com/xuing/ssh-please-paste-picture/releases/download/v0.1.9/ssh-paste.js"
-  sha256 "a334d3cdcd9ade476033a3abc070bdd31410b5fa4587c41f8b2d0197624071d2"
+  url "https://github.com/xuing/ssh-please-paste-picture/releases/download/v0.1.10/ssh-paste.js"
+  sha256 "c0e7a83a776b1e7a12091a9303f628db24ef383f4af8218d79d1b58d59d8bd4d"
   license "MIT"
 
   depends_on :macos
 
   resource "launcher" do
-    url "https://github.com/xuing/ssh-please-paste-picture/releases/download/v0.1.9/ssh-paste-mac"
+    url "https://github.com/xuing/ssh-please-paste-picture/releases/download/v0.1.10/ssh-paste-mac"
     sha256 "ff6376d48547f9a121b4699989aab7e3d9af6dca3f9200a5bdc8a4c351cee181"
   end
 
